@@ -2,15 +2,15 @@ package com.dio.model;
 
 import java.util.Objects; 
 
-public class Cachorro {
+public class Cachorro1 {
 
 	private String nome;
 	private String cor;
 	private Integer idade;
 
-	public Cachorro() {}
+	public Cachorro1() {}
 	
-	public Cachorro(String nome, String cor, Integer idade) {
+	public Cachorro1(String nome, String cor, Integer idade) {
 		this.nome = nome;
 		this.cor = cor;
 		this.idade = idade;
@@ -34,7 +34,7 @@ public class Cachorro {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Cachorro other = (Cachorro) obj;
+		Cachorro1 other = (Cachorro1) obj;
 		return Objects.equals(cor, other.cor) && Objects.equals(idade, other.idade) && Objects.equals(nome, other.nome);
 	}
 
